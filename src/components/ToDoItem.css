@@ -1,0 +1,15 @@
+.ToDoItem {
+  margin-bottom: 1rem;
+}
+
+.ToDoItem-Text {
+  margin-right: 1rem;
+}
+
+.ToDoItem-Delete {
+  padding: 0.5rem 0.75rem;
+  color: red;
+  font-weight: 900;
+  border: solid 1px red;
+  border-radius: 0.5rem;
+}

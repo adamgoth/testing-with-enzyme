@@ -1,11 +1,13 @@
 import React from 'react'
 
+import './ToDoItem.css'
+
 const ToDoItem = (props) => {
   const { item, deleteItem } = props
 
   return (
     <li className='ToDoItem'>
-      <p className='ToDoItem-Text'>{item.text}</p>
+      <span className='ToDoItem-Text'>{item.text}</span>
       <button
         aria-label={`delete ${item.text}`}
         className='ToDoItem-Delete'

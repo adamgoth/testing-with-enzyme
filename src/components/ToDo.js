@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import ToDoItem from './ToDoItem'
 
+import './ToDo.css'
+
 const ToDo = () => {
   const [list, setList] = useState([
     { id: 1, text: 'clean the house' },

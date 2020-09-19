@@ -1,0 +1,18 @@
+.ToDo {
+  padding: 2rem;
+}
+
+.ToDoInput input {
+  line-height: 2rem;
+  margin-right: 1rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.ToDo-Add {
+  padding: 0.5rem 0.75rem;
+  color: green;
+  font-weight: 900;
+  border: solid 1px green;
+  border-radius: 0.5rem;
+}
